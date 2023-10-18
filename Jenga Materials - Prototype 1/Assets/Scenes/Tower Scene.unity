@@ -1041,6 +1041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Throwing Cam
       objectReference: {fileID: 0}
+    - target: {fileID: 337427202073947638, guid: 2b0ab6e2d4d26fd42abd1da8cf58db46, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5499753792643894437, guid: 2b0ab6e2d4d26fd42abd1da8cf58db46, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3

@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Throwing.cs" />
     <Compile Include="Assets\Scripts\CamMovement.cs" />
+    <Compile Include="Assets\Scripts\MeshDestroy.cs" />
     <Compile Include="Assets\Scripts\MoveCamera.cs" />
   </ItemGroup>
   <ItemGroup>

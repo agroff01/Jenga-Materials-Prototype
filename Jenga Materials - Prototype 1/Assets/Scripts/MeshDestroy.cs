@@ -10,20 +10,14 @@ public class MeshDestroy : MonoBehaviour
     private Vector2 edgeUV = Vector2.zero;
     private Plane edgePlane = new Plane();
 
+    public int maxDivisions = 5;
     public int CutCascades = 1;
     public float ExplodeForce = 0;
 
-    // Start is called before the first frame update
-    void Start()
+    private void OnCollisionEnter(Collision collision)
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
+        if (collision.collider.gameObject.layer == 5 && maxDivisions > 0) {
+            maxDivisions--;
             DestroyMesh();
         }
     }
@@ -295,6 +289,7 @@ public class MeshDestroy : MonoBehaviour
             var meshDestroy = GameObject.AddComponent<MeshDestroy>();
             meshDestroy.CutCascades = original.CutCascades;
             meshDestroy.ExplodeForce = original.ExplodeForce;
+            meshDestroy.maxDivisions = original.maxDivisions;
 
         }
 
