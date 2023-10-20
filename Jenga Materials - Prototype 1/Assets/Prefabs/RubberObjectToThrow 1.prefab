@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2015370079916987760}
   - component: {fileID: 3823894050935774944}
   - component: {fileID: 9196747741546229577}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: RubberObjectToThrow 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
