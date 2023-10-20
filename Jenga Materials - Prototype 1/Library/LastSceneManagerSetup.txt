@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Tower Scene.unity
+- path: Assets/Scenes/Tristyn.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
