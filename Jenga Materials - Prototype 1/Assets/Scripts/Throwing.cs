@@ -9,7 +9,12 @@ public class Throwing : MonoBehaviour
     [Header("References")]
     public Transform cam;
     public Transform attackPoint;
-    public GameObject objectToThrow;
+    private GameObject objectToThrow;
+    public GameObject objectToThrow1;
+    public GameObject objectToThrow2;   
+    public GameObject objectToThrow3;
+    public GameObject objectToThrow4;
+    public GameObject objectToThrow5;
 
     [Header("Settings")]
     public int totalThrows;
@@ -24,6 +29,7 @@ public class Throwing : MonoBehaviour
 
     private void Start()
     {
+        objectToThrow = objectToThrow1;
         readyToThrow = true;
     }
 
@@ -31,6 +37,26 @@ public class Throwing : MonoBehaviour
     {
         if(Input.GetKeyDown(throwKey) && readyToThrow && totalThrows > 0){
             Throw();
+        }
+
+        if(Input.GetKeyDown(KeyCode.Alpha1)) {
+            objectToThrow = objectToThrow1;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            objectToThrow = objectToThrow2;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            objectToThrow = objectToThrow3;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            objectToThrow = objectToThrow4;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            objectToThrow = objectToThrow5;
         }
     }
 

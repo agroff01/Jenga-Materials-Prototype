@@ -494,7 +494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5137169482568800571, guid: fad79d6aa4644d6488a66f31d11f2c01, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -57.19
+      value: -66.08
       objectReference: {fileID: 0}
     - target: {fileID: 5137169482568800571, guid: fad79d6aa4644d6488a66f31d11f2c01, type: 3}
       propertyPath: m_LocalRotation.w
@@ -896,7 +896,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5137169482568800571, guid: d5ef41e17340bb64aa0fe1fec6863e04, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -57.19
+      value: -63.99
       objectReference: {fileID: 0}
     - target: {fileID: 5137169482568800571, guid: d5ef41e17340bb64aa0fe1fec6863e04, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1431,6 +1431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Throwing Cam
       objectReference: {fileID: 0}
+    - target: {fileID: 1610069597104228015, guid: 2b0ab6e2d4d26fd42abd1da8cf58db46, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5499753792643894437, guid: 2b0ab6e2d4d26fd42abd1da8cf58db46, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -1471,8 +1475,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8979294916867081381, guid: 2b0ab6e2d4d26fd42abd1da8cf58db46, type: 3}
+      propertyPath: objectToThrow1
+      value: 
+      objectReference: {fileID: 2785120452711862353, guid: 0c39fb6d992a9c44bb666db50b776bfc, type: 3}
+    - target: {fileID: 8979294916867081381, guid: 2b0ab6e2d4d26fd42abd1da8cf58db46, type: 3}
+      propertyPath: objectToThrow2
+      value: 
+      objectReference: {fileID: 2785120452711862353, guid: 8353e44f661bf6347a93fc610205d746, type: 3}
+    - target: {fileID: 8979294916867081381, guid: 2b0ab6e2d4d26fd42abd1da8cf58db46, type: 3}
+      propertyPath: objectToThrow3
+      value: 
+      objectReference: {fileID: 2785120452711862353, guid: 06c879dacb8494142b01b90f96fb9d31, type: 3}
+    - target: {fileID: 8979294916867081381, guid: 2b0ab6e2d4d26fd42abd1da8cf58db46, type: 3}
+      propertyPath: objectToThrow4
+      value: 
+      objectReference: {fileID: 2785120452711862353, guid: be3797377b2ba1f45b6851fdc512838d, type: 3}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 337427202073947638, guid: 2b0ab6e2d4d26fd42abd1da8cf58db46, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0ab6e2d4d26fd42abd1da8cf58db46, type: 3}
