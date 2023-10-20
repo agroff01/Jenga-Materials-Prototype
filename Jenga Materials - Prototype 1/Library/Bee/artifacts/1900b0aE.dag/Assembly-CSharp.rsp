@@ -353,6 +353,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/CamMovement.cs"
+"Assets/Scripts/JellyMesh.cs"
 "Assets/Scripts/MeshDestroy.cs"
 "Assets/Scripts/MoveCamera.cs"
 "Assets/Scripts/Throwing.cs"
