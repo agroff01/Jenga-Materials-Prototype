@@ -119,9 +119,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f1fa253724e4f91b8e18406f105150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Intensity: 0.5
+  Intensity: 1.34
   Mass: 5
-  stiffness: 10
+  stiffness: 5
   damping: 0.3
 --- !u!54 &8360234428526463834
 Rigidbody:
