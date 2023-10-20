@@ -357,6 +357,7 @@
 "Assets/Scripts/MeshDestroy.cs"
 "Assets/Scripts/MoveCamera.cs"
 "Assets/Scripts/Throwing.cs"
+"Assets/Scripts/YarnBlock.cs"
 -langversion:9.0
 
 /deterministic
