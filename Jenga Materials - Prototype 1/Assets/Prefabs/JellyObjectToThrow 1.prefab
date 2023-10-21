@@ -119,10 +119,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f1fa253724e4f91b8e18406f105150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Intensity: 2
-  Mass: 2
-  stiffness: 3
-  damping: 0.75
+  Intensity: 0.5
+  Mass: 4
+  stiffness: 4
+  damping: 0.3
 --- !u!54 &9196747741546229577
 Rigidbody:
   m_ObjectHideFlags: 0
